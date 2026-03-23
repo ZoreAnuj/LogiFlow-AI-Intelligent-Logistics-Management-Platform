@@ -1,21 +1,21 @@
-# LogiFlow AI: Intelligent Logistics Management Platform
+# Logistics Agent Orchestrator
 
-LogiFlow AI is an experimental platform that applies multi-step AI agents and vector search to automate and optimize logistics operations. It explores how autonomous AI workers can enhance predictive maintenance, dynamic routing, and emergency response within supply chains.
+An intelligent logistics management platform exploring the automation of supply chain operations using multi-step AI agents. It leverages vector search for data intelligence to handle tasks like predictive maintenance and dynamic route optimization.
 
 ## Key Features
-*   **Multi-Step AI Agents** orchestrate complex logistics workflows like shipment tracking and issue resolution.
-*   **Vector-Powered Search** enables semantic querying of logistics data using TiDB Serverless.
-*   **Predictive Analytics** forecasts potential delays and recommends optimal delivery routes.
-*   **Automated Emergency Response** triggers and manages contingency plans for disruptions.
+*   **Multi-Agent Orchestration:** Coordinates specialized AI agents for complex, sequential logistics workflows.
+*   **Vector-Powered Intelligence:** Utilizes TiDB Serverless vector search for semantic data retrieval and analysis.
+*   **Predictive Analytics:** Implements models for proactive maintenance and shipment delay forecasting.
+*   **Dynamic Optimization:** Automates real-time route and load planning based on live constraints.
 
 ## Tech Stack
-*   **Backend:** Python, FastAPI
-*   **AI/ML:** LangChain, OpenAI API
+*   **Backend:** Python, LangChain/LlamaIndex
 *   **Database:** TiDB Serverless (Vector Search)
-*   **Infrastructure:** Docker
+*   **AI/ML:** OpenAI API, Scikit-learn
+*   **Infrastructure:** Docker, Git
 
 ## Getting Started
-1.  Clone the repo: `git clone https://github.com/zoreanuj/LogiFlow-AI-Intelligent-Logistics-Management-Platform.git`
+1.  Clone the repo: `git clone https://github.com/zoreanuj/logistics-agent-orchestrator.git`
 2.  Install dependencies: `pip install -r requirements.txt`
 3.  Set your environment variables (e.g., `OPENAI_API_KEY`).
-4.  Run the application: `uvicorn main:app --reload`
+4.  Run the main application: `python src/main.py`
